@@ -1,0 +1,13 @@
+.hero {
+  background-image: url("https://i.ibb.co/JFSX0ZJ/toa-heftiba-FV3-GCon-VSss-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 300px 20px; /* Adjust padding based on your design */
+}
+
+.heroContent {
+  max-width: 600px;
+  margin: 0 auto;
+}

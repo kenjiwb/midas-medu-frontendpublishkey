@@ -1,8 +1,0 @@
-@media (max-width: 768px) {
-  /* Adjust styles for smaller screens */
-  .musiccontainer {
-    /* background-size: contain; or any other value that fits your design */
-    height: "75vh";
-    /*width: auto; */
-  }
-}
