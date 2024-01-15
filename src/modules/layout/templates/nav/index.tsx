@@ -36,7 +36,7 @@ const Nav = () => {
               href="/"
               className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
             >
-              JPBS Store
+              Midas Lifestyle Store
             </Link>
           </div>
 

@@ -19,7 +19,7 @@ const FooterNav = () => {
               href="/"
               className="txt-compact-xlarge-plus text-ui-fg-subtle hover:text-ui-fg-base uppercase"
             >
-              JPBS Store
+              Midas Lifestyle Store
             </Link>
           </div>
           <div className="text-small-regular grid grid-cols-3 gap-x-10 md:gap-x-16">
@@ -103,7 +103,7 @@ const FooterNav = () => {
               </div>
             )}
             <div className="flex flex-col gap-y-2">
-              <span className="txt-small-plus txt-ui-fg-base">JPBS</span>
+              <span className="txt-small-plus txt-ui-fg-base">Midas Lifestyle</span>
               <ul className="grid grid-cols-1 gap-y-2 text-ui-fg-subtle txt-small">
                 <li>
                   {/* <a
@@ -141,7 +141,7 @@ const FooterNav = () => {
         </div>
         <div className="flex w-full mb-16 justify-between text-ui-fg-muted">
           <Text className="txt-compact-small">
-            © {new Date().getFullYear()} JPBS Store. All rights reserved.
+            © {new Date().getFullYear()} Midas Lifestyle Store. All rights reserved.
           </Text>
           <MedusaCTA />
         </div>

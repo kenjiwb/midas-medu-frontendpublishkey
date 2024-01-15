@@ -3,7 +3,7 @@ import { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "Profile",
-  description: "View and edit your JPBS Store profile.",
+  description: "View and edit your Midas Lifestyle Store profile.",
 }
 
 export default function Profile() {
