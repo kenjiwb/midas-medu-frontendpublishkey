@@ -11,7 +11,8 @@ const SideMenuItems = {
   Search: "",
   Account: "/account",
   Cart: "/cart",
-  PrivacyPolicy : "/privacyPolicy"
+  PrivacyPolicy : "/privacyPolicy",
+  Shipping : '/shipping'
 }
 
 const SideMenu = ({ searchModalOpen }: { searchModalOpen: () => void }) => {
@@ -77,6 +78,19 @@ const SideMenu = ({ searchModalOpen }: { searchModalOpen: () => void }) => {
                                 onClick={close}
                               >
                                 Privacy Policy
+                              </Link>
+                            </li>
+                          )
+                        }
+                        if(name === 'shipping') {
+                          return (
+                            <li key={name}>
+                              <Link
+                                href={href}
+                                className="text-3xl leading-10 hover:text-ui-fg-disabled"
+                                onClick={close}
+                              >
+                                Shipping
                               </Link>
                             </li>
                           )
