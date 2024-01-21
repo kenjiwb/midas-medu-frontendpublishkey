@@ -37,7 +37,7 @@ const MainMenu = () => {
         </div>
 
         <Heading className="txt-compact-xlarge-plus text-ui-fg-subtle uppercase">
-          Midas Lifestyle Store
+        <img src="https://static.wixstatic.com/media/9ef40d_58a1a80b9a9641d69c61436c550136cb~mv2.png/v1/fill/w_68,h_68,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo.png" height="60" width="60" alt="" />
         </Heading>
 
         <div className="flex-1 basis-0 flex justify-end">
