@@ -126,6 +126,13 @@
   /* border: 2px solid red; */ 
 }
 
+.custom-container-3 {
+  max-width: 900px;
+  min-height: 20vh;
+  margin: 5rem auto;
+  /* border: 2px solid red; */ 
+}
+
 .privacy-policy-banner {
   display: flex;
   align-items: center;
@@ -169,4 +176,19 @@
 
 .large-h1 {
   font-size: 2.9em;
+}
+.min-h4 {
+  font-size: 1.5em;
+}
+.mini-h5 {
+  font-size: 1em;
+}
+
+.w-70 {
+  width: 250px;
+}
+
+.txt-red {
+  font-weight: 600;
+  color: rgb(255, 34, 34);
 }

@@ -13,7 +13,8 @@ const SideMenuItems = {
   Cart: "/cart",
   PrivacyPolicy : "/privacyPolicy",
   Shipping : '/shipping',
-  Termsservice : '/termsservice'
+  Termsservice : '/termsservice',
+  Refund : 'refund'
 }
 
 const SideMenu = ({ searchModalOpen }: { searchModalOpen: () => void }) => {
@@ -105,6 +106,19 @@ const SideMenu = ({ searchModalOpen }: { searchModalOpen: () => void }) => {
                                 onClick={close}
                               >
                                 Terms Of Service
+                              </Link>
+                            </li>
+                          )
+                        }
+                        if(name === 'Refund') {
+                          return (
+                            <li key={name}>
+                              <Link
+                                href={href}
+                                className="text-3xl leading-10 hover:text-ui-fg-disabled"
+                                onClick={close}
+                              >
+                                Refund & Exchange
                               </Link>
                             </li>
                           )
