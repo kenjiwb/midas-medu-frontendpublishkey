@@ -21,7 +21,22 @@ const FooterNav = () => {
             >
               Midas Lifestyle Store
             </Link>
+            <div className="contac-info mt-4">
+              <h2 className="min-h4">Connect With Us</h2>
+              
+            </div>
+            <div className="mt-5">
+              <h5 className="mini-h2">Midas Lifestyle Private Limited</h5>
+            </div>
+            <div className="mt-5">
+              <h5 className="mini-h2">Email:</h5>
+              <h1>sales@midaslifestyle.net</h1>
+            </div>
+            <div className="mt-8">
+              <img src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0fdef751204647a3bbd7eaa2827ed4f9.png" alt="" />
+            </div>
           </div>
+
           <div className="text-small-regular grid grid-cols-3 gap-x-10 md:gap-x-16">
             {product_categories && (
               <div className="flex flex-col gap-y-2">

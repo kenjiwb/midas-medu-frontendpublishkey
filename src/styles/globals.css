@@ -184,6 +184,11 @@
   font-size: 1em;
 }
 
+.mini-h2 {
+  font-size: 1em;
+  font-weight: 700;
+}
+
 .w-70 {
   width: 250px;
 }
