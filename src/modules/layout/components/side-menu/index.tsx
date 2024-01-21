@@ -12,7 +12,8 @@ const SideMenuItems = {
   Account: "/account",
   Cart: "/cart",
   PrivacyPolicy : "/privacyPolicy",
-  Shipping : '/shipping'
+  Shipping : '/shipping',
+  Termsservice : '/termsservice'
 }
 
 const SideMenu = ({ searchModalOpen }: { searchModalOpen: () => void }) => {
@@ -91,6 +92,19 @@ const SideMenu = ({ searchModalOpen }: { searchModalOpen: () => void }) => {
                                 onClick={close}
                               >
                                 Shipping
+                              </Link>
+                            </li>
+                          )
+                        }
+                        if(name === 'Termsservice') {
+                          return (
+                            <li key={name}>
+                              <Link
+                                href={href}
+                                className="text-3xl leading-10 hover:text-ui-fg-disabled"
+                                onClick={close}
+                              >
+                                Terms Of Service
                               </Link>
                             </li>
                           )
