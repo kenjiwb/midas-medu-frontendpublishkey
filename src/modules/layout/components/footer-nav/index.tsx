@@ -21,10 +21,7 @@ const FooterNav = () => {
             >
               Midas Lifestyle Store
             </Link>
-            <div className="contac-info mt-4">
-              <h2 className="min-h4">Connect With Us</h2>
-              
-            </div>
+
             <div className="mt-5">
               <h5 className="mini-h2">Midas Lifestyle Private Limited</h5>
             </div>
@@ -33,7 +30,10 @@ const FooterNav = () => {
               <h1>sales@midaslifestyle.net</h1>
             </div>
             <div className="mt-8">
-              <img src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0fdef751204647a3bbd7eaa2827ed4f9.png" alt="" />
+              <img
+                src="https://static.wixstatic.com/media/0fdef751204647a3bbd7eaa2827ed4f9.png/v1/fill/w_25,h_25,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/0fdef751204647a3bbd7eaa2827ed4f9.png"
+                alt=""
+              />
             </div>
           </div>
 
@@ -118,7 +118,9 @@ const FooterNav = () => {
               </div>
             )}
             <div className="flex flex-col gap-y-2">
-              <span className="txt-small-plus txt-ui-fg-base">Midas Lifestyle</span>
+              <span className="txt-small-plus txt-ui-fg-base">
+                Midas Lifestyle
+              </span>
               <ul className="grid grid-cols-1 gap-y-2 text-ui-fg-subtle txt-small">
                 <li>
                   {/* <a
@@ -156,7 +158,8 @@ const FooterNav = () => {
         </div>
         <div className="flex w-full mb-16 justify-between text-ui-fg-muted">
           <Text className="txt-compact-small">
-            © {new Date().getFullYear()} Midas Lifestyle Store. All rights reserved.
+            © {new Date().getFullYear()} Midas Lifestyle Store. All rights
+            reserved.
           </Text>
           <MedusaCTA />
         </div>
