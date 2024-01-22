@@ -197,3 +197,165 @@
   font-weight: 600;
   color: rgb(255, 34, 34);
 }
+
+
+.banners .left-banner {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  margin-right: 1rem;
+  background: url('https://static.wixstatic.com/media/11062b_7f9078f32a0a48dca6600015a9b38247~mv2.jpg/v1/fill/w_967,h_351,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_7f9078f32a0a48dca6600015a9b38247~mv2.jpg') no-repeat center  center/cover;
+}
+
+.banners .left-banner 
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 400px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.banners .right-banner {
+  position: relative;
+  width: 100%;
+  /* border: 2px solid yellow; */
+  min-height: 400px;
+  background: url('https://static.wixstatic.com/media/11062b_9ff831aaf0024d5bb3ed921f431cf909~mv2.jpg/v1/fill/w_967,h_351,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11062b_9ff831aaf0024d5bb3ed921f431cf909~mv2.jpg') no-repeat center  center/cover;
+  margin-left: 1rem;
+}
+
+
+.banners .flex-column {
+  flex-direction: column !important;
+}
+
+.banners .content h3 {
+font-size: 1.2em;
+}
+
+.banner-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 140px;
+  min-height: 40px;
+  border-radius: 30px;
+  transition: 1s;
+  background-color: #c2b397;
+}
+
+.banner-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.banners .content h1 {
+  font-size: 2.8em;
+  }
+
+.banners .right-banner 
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 400px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+
+.icon-cards {
+  min-height: 180px;
+  background-color: #fff;
+  color: #000;
+}
+
+.icon-cards h4{
+  line-height: 1.2;
+  font-size: 1.2em;
+}
+
+
+
+.icon-box {
+  padding-left: 10px;
+  min-height: 180px;
+  /* border: 2px solid red; */
+}
+
+
+.salebanner {
+  min-height: 400px;
+  overflow: hidden;
+  position: relative;
+  /* border: 2px solid red; */
+}
+
+.salebanner .left-banner {
+  min-height: 400px;
+  width: 99%;
+  overflow: hidden;
+  /* border: 2px solid greenyellow; */
+}
+
+.salebanner .left-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 510px; /* Adjust the width of the curved part */
+  background-color: #fff;
+  transform: skewX(20deg); /* Adjust the angle as needed */
+}
+
+.salebanner .left-banner img {
+  min-height: 400px;
+  /* width: 100%; */
+}
+
+.salebanner .right-banner {
+  width: 50%;
+  border: 2px solid #fff;
+  position: relative;
+  z-index: 100 !important;
+}
+
+.salebanner .right-banner .contnents h3{
+  font-size: 1.8em;
+  font-weight: 500;
+}
+
+.salebanner .right-banner .contnents h1 {
+  font-weight: 500;
+  font-size: 6em;
+}
+
+
+@media (max-width: 768px) {
+  .banners .left-banner,
+  .banners .right-banner {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  .small-wrap {
+    flex-wrap: wrap;
+  }
+
+  .salebanner .left-banner::before {
+    content: "";
+    position: relative !important;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+/* Adjust the angle as needed */
+  }
+}
+
+
