@@ -74,6 +74,50 @@ const MainMenu = () => {
                 </button>
               </Link>
             </li>
+            <li className="bg-gray-50 p-4 rounded-rounded">
+              <Link href="/privacyPolicy">
+                <button
+                  className="flex items-center justify-between w-full"
+                  onClick={close}
+                >
+                  <span className="sr-only">Privacy Policy</span>
+                  <span>Privacy Policy</span>
+                </button>
+              </Link>
+            </li>
+            <li className="bg-gray-50 p-4 rounded-rounded">
+              <Link href="/shipping">
+                <button
+                  className="flex items-center justify-between w-full"
+                  onClick={close}
+                >
+                  <span className="sr-only">Shipping</span>
+                  <span>Shipping</span>
+                </button>
+              </Link>
+            </li>
+            <li className="bg-gray-50 p-4 rounded-rounded">
+              <Link href="/termsservice">
+                <button
+                  className="flex items-center justify-between w-full"
+                  onClick={close}
+                >
+                  <span className="sr-only">Terms Of Service</span>
+                  <span>Terms Of Service</span>
+                </button>
+              </Link>
+            </li>
+            <li className="bg-gray-50 p-4 rounded-rounded">
+              <Link href="/refund">
+                <button
+                  className="flex items-center justify-between w-full"
+                  onClick={close}
+                >
+                  <span className="sr-only">Refund & Exchange</span>
+                  <span>Refund & Exchange</span>
+                </button>
+              </Link>
+            </li>
             {collections ? (
               <>
                 {collections.map((collection) => (

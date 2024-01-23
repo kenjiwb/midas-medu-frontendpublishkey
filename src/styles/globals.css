@@ -322,7 +322,7 @@ font-size: 1.2em;
   width: 50%;
   border: 2px solid #fff;
   position: relative;
-  z-index: 100 !important;
+  z-index: 40 !important;
 }
 
 .salebanner .right-banner .contnents h3{
@@ -333,6 +333,10 @@ font-size: 1.2em;
 .salebanner .right-banner .contnents h1 {
   font-weight: 500;
   font-size: 6em;
+}
+
+.z-index-300 {
+  z-index: 300 !important;
 }
 
 
@@ -356,6 +360,20 @@ font-size: 1.2em;
     background-color: #fff;
 /* Adjust the angle as needed */
   }
+
+  .salebanner .left-banner,
+  .salebanner .left-banner img{
+    max-height: 320px !important;
+    min-height: 320px !important;
+    /* border: 2px solid red; */
+  }
+
+  .salebanner .right-banner {
+    margin-top: 1rem;
+    padding-left: 0px !important;
+    /* border: 2px solid red; */
+  }
+  
 }
 
 
