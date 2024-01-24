@@ -86,11 +86,11 @@ export default async function Home() {
         {/* Top Brands */}
 
 
-        <div className="top-brands my-12 py-5 mx-8">
+        <div className="top-brands my-12 py-5">
           <div className="heading text-center">
             <h1 className="text-2xl-semi mb-4">Top Brands</h1>
           </div>
-          <div className="brands small-wrap flex px-10">
+          <div className="brands small-wrap flex justify-center items-center px-10">
             <div className="brand">
               <img src="https://static.wixstatic.com/media/c837a6_9117ead0c4e54c489723093e91f1a0c2~mv2.png/v1/fill/w_244,h_137,q_90/c837a6_9117ead0c4e54c489723093e91f1a0c2~mv2.webp" alt="" />
             </div>
