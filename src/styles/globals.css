@@ -341,11 +341,29 @@ font-size: 1.2em;
 
 
 @media (max-width: 768px) {
+
+
+  .salebanner ,
+  .banners{
+    margin-left: 0;
+    margin-right: 0;
+  }
+  #homepag {
+    /* border: 2px solid red; */
+  }
+
   .banners .left-banner,
   .banners .right-banner {
     margin-left: 0;
     margin-right: 0;
     margin-bottom: 1rem;
+  }
+  
+
+  .banners .left-banner .justify-center,
+  .banners .right-banner .justify-center{
+    padding-top: 2.55rem;
+    justify-content: inherit !important;
   }
   .small-wrap {
     flex-wrap: wrap;
@@ -370,7 +388,20 @@ font-size: 1.2em;
 
   .salebanner .right-banner {
     margin-top: 1rem;
-    padding-left: 0px !important;
+    /* padding-left: 0px !important; */
+    /* border: 2px solid red; */
+  }
+
+  .small-center {
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+  }
+
+  .small-p-left {
+    display: inline-block;
+    width: 100%;
+    margin-left: 7.5rem;
     /* border: 2px solid red; */
   }
   

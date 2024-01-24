@@ -12,9 +12,9 @@ const FooterNav = () => {
 
   return (
     <div className="border-t border-ui-border-base w-screen">
-      <div className="content-container flex flex-col">
-        <div className="flex flex-col gap-y-6 xsmall:flex-row items-start justify-between py-40">
-          <div>
+      <div className="content-container flex flex-col ">
+        <div className="flex flex-col small-center gap-y-6 xsmall:flex-row items-start justify-between py-40">
+          <div className="center-small-footer">
             <Link
               href="/"
               className="txt-compact-xlarge-plus text-ui-fg-subtle hover:text-ui-fg-base uppercase"
@@ -118,7 +118,7 @@ const FooterNav = () => {
               </div>
             )}
             <div className="flex flex-col gap-y-2">
-              <span className="txt-small-plus txt-ui-fg-base">
+              <span className="txt-small-plus small-p-left txt-ui-fg-base">
                 Midas Lifestyle
               </span>
               <ul className="grid grid-cols-1 gap-y-2 text-ui-fg-subtle txt-small">
