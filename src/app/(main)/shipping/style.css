@@ -1,0 +1,34 @@
+
+
+@media (max-width: 768px) {
+
+    .custom-container-2 {
+        margin-top: 0;
+        padding-top: 0;
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+        /* border: 2px solid red; */
+    }
+
+    .shipping-banner h1{
+        width: 210px;
+        margin: 0 auto;
+        font-size: 2.4em;
+        margin-top: .33em;
+        font-weight: 700;
+        margin-bottom: 0;
+        /* border: 2px solid green; */
+    }
+
+    .custom-container-2 .content {
+        padding-top: 0;
+    }
+
+    .custom-container-2 .content h1 {
+        font-size: 1.77em;
+    }
+
+    .custom-container-2 .content p {
+        font-size: 1em;
+    }
+}

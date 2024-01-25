@@ -1,6 +1,6 @@
 
 import { Metadata } from "next"
-
+import './style.css'
 export const metadata: Metadata = {
     title: "Midas Lifestyle STORE",
     description: "The ulitmate place for your own needs!",
